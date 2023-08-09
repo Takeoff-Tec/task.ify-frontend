@@ -117,11 +117,14 @@ const AddTaskCardForm: React.FC<AddTaskCardFormProps> = ({
                         onChange={e =>
                             setFormData({ ...formData, vibe: e.target.value })
                         }>
-                        <option value='Chill'>Chill</option>
                         <option value='Happy'>Happy</option>
                         <option value='Sad'>Sad</option>
-                        <option value='Angry'>Angry</option>
                         <option value='Party'>Party</option>
+                        <option value='Latin Party'>Latin Party</option>
+                        <option value='Country'>Country</option>
+                        <option value='LoFi'>LoFi</option>
+                        <option value='Rap'>Rap Party</option>
+                        <option value='Indie'>Indie Breeze</option>
                     </select>
                     <label
                         htmlFor='timer'

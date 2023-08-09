@@ -10,11 +10,15 @@ const Navbar: React.FC<NavbarProps> = ({ appState, setAppState }) => {
     const location = useLocation()
     return (
         <nav className='navbar'>
-            {location.pathname !== '/' && appState.isAuthenticated && <Logo />}
-            <NavLinks
-                appState={appState}
-                setAppState={setAppState}
-            />
+            {location.pathname !== '/' && appState.isAuthenticated && (
+                <>
+                    <Logo />
+                    <NavLinks
+                        appState={appState}
+                        setAppState={setAppState}
+                    />
+                </>
+            )}
         </nav>
     )
 }
