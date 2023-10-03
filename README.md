@@ -52,8 +52,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Task.ify is a productivity-focused music application that harnesses the power of AI. Users log in via Spotify OAuth, fill out a task form specifying the desired vibe and duration, and the app then curates a tailored playlist, that is also inserted into the user's spotify account, for that task. Once the playlist is ready, users simply click the "Start Activity" button, which streams the playlist accompanied by a timer. Task.ify streamlines the tedious process of making playlists for activities in user's lives by using a simple user input form to ai curate the perfect playlist for each activity!
 
 Take a Look @ Task.ify: https://taskify-frontendhost-2277661894f3.herokuapp.com/
@@ -100,7 +98,6 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 
 
@@ -108,11 +105,11 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Spotify OAuthentication API
-- [x] OpenAI API Generated Playlist Name and Tracks
+- [x] Landing Page with Login button route to Spotify OAuthentication
+- [x] Task Deck
 - [x] Creation of Playlist with Tracks inserted in Spotify API
-- [x] Task CRUD operations
-    - [x] Retrieves Spotify Cover
+- [x] Timer and Tracks play through iFrame
+    - [x] Plays song directly from Spotify
 
 See the [open issues](https://github.com/Takeoff-Tec/task.ify-frontend/issues) for a full list of proposed features (and known issues).
 
